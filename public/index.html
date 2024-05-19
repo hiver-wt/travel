@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>成都景点导览系统</title>
+  <!-- 引入 layui.css -->
+  <link href="./layui/css/layui.css" rel="stylesheet" />
+
+  <!-- 引入 layui.js -->
+  <script src="./layui/layui.js"></script>
+  <script src="./ol.js"></script>
+  <link rel="stylesheet" href="./ol.css" />
+  <!-- 使用unpkg -->
+  <script src="./turf.js"></script>
+</head>
+
+<body>
+  <div style="
+        padding: 20px;
+        color: white;
+        font-size: 35px;
+        font-weight: bolder;
+        float: right;
+      ">
+    <p>成都景点导览系统&emsp;&emsp;&emsp;</p>
+  </div>
+  <div style="width: 100%; text-align: center">
+    <div style="
+          display: inline-block;
+          text-align: left;
+          padding: 20px;
+          border: 1px solid grey;
+          margin-top: 10px;
+          border-radius: 10px;
+        ">
+      <div class="layui-container">
+        <div class="layui-row">
+          <div id="1">
+            <div class="layui-col-md4">
+              <div>
+                <p style="font-size: 20px; color: #0362c2; font-weight: bolder">
+                  景点查询
+                </p>
+                <br />
+                <br />
+                <div style="padding: 20px; font-size: 18px; color: white">
+                  <p>
+                    景点名称:&emsp;
+                    <input id="search5" style="width: 200px" />
+                  </p>
+                  <br />
+                  <button style="width: 300px" onclick="search2()" class="layui-btn layui-btn-normal">
+                    名称搜索
+                  </button>
+                </div>
+                <div style="padding: 20px; font-size: 18px; color: white">
+                  <p>
+                    出发地点:&emsp;
+                    <span id="search3">请在地图上拾取坐标</span>
+                  </p>
+                  <br />
+                  <p>
+                    距离(公里):&emsp;
+                    <input id="search4" style="width: 200px" />
+                  </p>
+                  <br />
+                  <button style="width: 300px" onclick="search()" class="layui-btn layui-btn-normal">
+                    范围搜索
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="layui-col-md8">
+              <div>
+                <div id="map"></div>
+                <div id="popup" class="ol-popup">
+                  <a href="#" id="popup-walk" class="ol-popup-walk"></a>
+                  <a href="#" id="popup-bus" class="ol-popup-bus"></a>
+                  <a href="#" id="popup-car" class="ol-popup-car"></a>
+                  <a href="#" id="popup-closer" class="ol-popup-closer"></a>
+                  <div id="popup-content"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<script>
+
+  var $;
+  var vectorLayer;
+  var pointLayer;
+  var map;
+  var total = [];
+  var json;
+  var popup;
+  async function search() {
+    let search3 = document.getElementById("search3").innerText;
+    let search4 = document.getElementById("search4").value;
+    if (search3 == "请在地图上拾取坐标") {
+      layer.msg("请在地图上拾取坐标");
+      return;
+    }
+    if (search4 == "") {
+      layer.msg("请输入距离");
+      return;
+    }
+    layer.msg("查询中...");
+
+    let [lng, lat] = search3.split(",").map(Number);
+    let radius = Number(search4) * 1000; // 转换为米
+
+    try {
+      const response = await fetch(
+        `/attractions?lng=${lng}&lat=${lat}&radius=${radius}`
+      );
+      const data = await response.json();
+
+      if (data.features.length == 0) {
+        layer.msg("未找到相关景点");
+        return;
+      }
+
+      vectorLayer.getSource().clear();
+      vectorLayer.getSource().addFeatures(
+        new ol.format.GeoJSON({
+          featureProjection: "EPSG:3857",
+        }).readFeatures(data)
+      );
+      map.getView().fit(vectorLayer.getSource().getExtent());
+
+      layer.msg("查询成功");
+    } catch (error) {
+      console.error("请求失败", error);
+      layer.msg("请求失败");
+    }
+  }
+  async function search2() {
+    let search5 = document.getElementById("search5").value;
+    if (search5 == "") {
+      layer.msg("请输入景点名称");
+      return;
+    }
+    layer.msg("查询中...");
+
+    try {
+      const response = await fetch(`/attractions/${search5}`);
+      const data = await response.json();
+
+      if (data.features.length == 0) {
+        layer.msg("未找到该景点");
+        return;
+      }
+
+      vectorLayer.getSource().clear();
+      vectorLayer.getSource().addFeatures(
+        new ol.format.GeoJSON({
+          featureProjection: "EPSG:3857",
+        }).readFeatures(data)
+        //fitExtent
+      );
+      map.getView().fit(vectorLayer.getSource().getExtent());
+
+      layer.msg("查询成功");
+    } catch (error) {
+      console.error("请求失败", error);
+      layer.msg("请求失败");
+    }
+  }
+
+  layui.use(["layer", "form"], function () {
+    var layer = layui.layer;
+    $ = layui.$;
+    layer.msg("欢迎使用");
+
+    map = new ol.Map({
+      target: "map",
+      layers: [
+        new ol.layer.Tile({
+          source: new ol.source.XYZ({
+            url: "http://wprd0{1-4}.is.autonavi.com/appmaptile?lang=zh_cn&size=1&style=7&x={x}&y={y}&z={z}",
+          }),
+        }),
+      ],
+      view: new ol.View({
+        //成都
+        center: ol.proj.fromLonLat([113.264434, 23.129162]),
+        zoom: 12,
+        maxZoom: 18,
+        minZoom: 3,
+      }),
+    });
+    $.ajax({
+      type: "get", // 使用get方式
+      url: "/attractions-all", // 后端接口URL
+      dataType: "json",
+      success: function (data) {
+        json = data;
+        try {
+          vectorLayer = new ol.layer.Vector({
+            source: new ol.source.Vector({
+              features: new ol.format.GeoJSON({
+                featureProjection: "EPSG:3857",
+              }).readFeatures(data),
+            }),
+            style: new ol.style.Style({
+              image: new ol.style.Icon({
+                scale: map.getView().getZoom() / 30,
+                anchor: [0.5, 0.6],
+                src: "https://a.amap.com/jsapi_demos/static/demo-center/icons/poi-marker-default.png",
+              }),
+            }),
+          });
+          map.addLayer(vectorLayer);
+          map.getView().fit(vectorLayer.getSource().getExtent());
+
+
+
+          total = vectorLayer
+            .getSource()
+            .getFeatures()
+            .map((el) => el.values_);
+
+          pointLayer = new ol.layer.Vector({
+            source: new ol.source.Vector(),
+            //红色的点
+            style: new ol.style.Style({
+              image: new ol.style.Circle({
+                radius: 5,
+                fill: new ol.style.Fill({
+                  color: "red",
+                }),
+              }),
+            }),
+          });
+          map.addLayer(pointLayer);
+        } catch (error) {
+          console.log(error);
+        }
+      },
+      error: function () {
+        alert("请求失败");
+      },
+    });
+
+    // 获取popup的dom对象
+    var container = document.getElementById("popup");
+    var content = document.getElementById("popup-content");
+    var closer = document.getElementById("popup-closer");
+    var car = document.getElementById("popup-car");
+    var bus = document.getElementById("popup-bus");
+    var walk = document.getElementById("popup-walk");
+
+    popup = new ol.Overlay({
+      element: container,
+      autoPan: true,
+      positioning: "bottom-center",
+      stopEvent: false,
+      autoPanAnimation: {
+        duration: 250,
+      },
+    });
+    map.addOverlay(popup);
+    var lnglat;
+    var popupLnglat;
+    closer.onclick = function () {
+      popup.setPosition(undefined);
+      closer.blur();
+      document.getElementById("search3").innerText =
+        Number(lnglat.split(",")[0]).toFixed(3).toString() +
+        "," +
+        Number(lnglat.split(",")[1]).toFixed(3).toString();
+
+      return false;
+    };
+    //   car.onclick = function () {
+    //     if (lnglat == "请在地图上拾取坐标") {
+    //       layer.msg("请在地图上拾取坐标");
+    //       return false;
+    //     }
+    //     layer.open({
+    //       title: "路径规划结果",
+    //       type: 2,
+    //       shade: false,
+    //       area: ["1000px", "600px"],
+    //       maxmin: true,
+    //       content: `/car.html?origin=${lnglat.toString()}&destination=${popupLnglat.toString()}`,
+    //       zIndex: layer.zIndex, //重点1
+    //       success: function (layero) {
+    //         layer.setTop(layero); //重点2
+    //       },
+    //     });
+    //     document.getElementById("search3").innerText =
+    //       Number(lnglat.split(",")[0]).toFixed(3).toString() +
+    //       "," +
+    //       Number(lnglat.split(",")[1]).toFixed(3).toString();
+
+    //     return false;
+    //   };
+    //   walk.onclick = function () {
+    //     if (lnglat == "请在地图上拾取坐标") {
+    //       layer.msg("请在地图上拾取坐标");
+    //       return false;
+    //     }
+    //     layer.open({
+    //       title: "路径规划结果",
+    //       type: 2,
+    //       shade: false,
+    //       area: ["1000px", "600px"],
+    //       maxmin: true,
+    //       content: `/walk.html?origin=${lnglat.toString()}&destination=${popupLnglat.toString()}`,
+    //       zIndex: layer.zIndex, //重点1
+    //       success: function (layero) {
+    //         layer.setTop(layero); //重点2
+    //       },
+    //     });
+    //     document.getElementById("search3").innerText =
+    //       Number(lnglat.split(",")[0]).toFixed(3).toString() +
+    //       "," +
+    //       Number(lnglat.split(",")[1]).toFixed(3).toString();
+
+    //     return false;
+    //   };
+    //   bus.onclick = function () {
+    //     if (lnglat == "请在地图上拾取坐标") {
+    //       layer.msg("请在地图上拾取坐标");
+    //       return false;
+    //     }
+    //     layer.open({
+    //       title: "路径规划结果",
+    //       type: 2,
+    //       shade: false,
+    //       area: ["1000px", "600px"],
+    //       maxmin: true,
+    //       content: `/bus.html?origin=${lnglat.toString()}&destination=${popupLnglat.toString()}`,
+    //       zIndex: layer.zIndex, //重点1
+    //       success: function (layero) {
+    //         layer.setTop(layero); //重点2
+    //       },
+    //     });
+    //     document.getElementById("search3").innerText =
+    //       Number(lnglat.split(",")[0]).toFixed(3).toString() +
+    //       "," +
+    //       Number(lnglat.split(",")[1]).toFixed(3).toString();
+
+    //     return false;
+    //   };
+    var name;
+
+    map.on("click", function (e) {
+      var coordinate = e.coordinate;
+      var feature = map.forEachFeatureAtPixel(
+        e.pixel,
+        function (feature, layer) {
+          return feature;
+        }
+      );
+
+      if (feature) {
+        if (name) content.removeChild(name);
+
+        name = document.createElement("p");
+
+        name.innerText =
+          "名称：" +
+          feature.get("name") +
+          "\n类型：" +
+          feature.get("type") +
+          "\n地址：" +
+          feature.get("address");
+        content.appendChild(name);
+
+        // 弹出popup
+        popup.setPosition(coordinate);
+        if (
+          document.getElementById("search3").innerText != "请在地图上拾取坐标"
+        ) {
+          lnglat = document.getElementById("search3").innerText;
+        } else {
+          lnglat = "请在地图上拾取坐标";
+        }
+        popupLnglat = ol.proj.toLonLat(e.coordinate);
+      } else {
+        document.getElementById("search3").innerText =
+          Number(ol.proj.toLonLat(e.coordinate)[0]).toFixed(3).toString() +
+          "," +
+          Number(ol.proj.toLonLat(e.coordinate)[1]).toFixed(3).toString();
+        pointLayer.getSource().clear();
+        pointLayer.getSource().addFeature(
+          new ol.Feature({
+            geometry: new ol.geom.Point(e.coordinate),
+          })
+        );
+
+
+        popup.setPosition(undefined);
+      }
+    });
+
+    //   function getLocation() {
+    //     if (navigator.geolocation) {
+    //       navigator.geolocation.getCurrentPosition(showPosition);
+    //       pointLayer.getSource().clear();
+    //       navigator.geolocation.watchPosition(function (position) {
+    //         pointLayer.getSource().clear();
+    //         pointLayer.getSource().addFeature(
+    //           new ol.Feature({
+    //             geometry: new ol.geom.Point(
+    //               ol.proj.fromLonLat([
+    //                 position.coords.longitude,
+    //                 position.coords.latitude,
+    //               ])
+    //             ),
+    //           })
+    //         );
+    //       });
+
+
+    //     } else {
+    //       alert("该浏览器不支持获取地理位置");
+    //     }
+    //   }
+    //   getLocation();
+
+    //   function showPosition(position) {
+    //     document.getElementById("search3").innerText =
+    //       position.coords.longitude.toFixed(3).toString() +
+    //       "," +
+    //       position.coords.latitude.toFixed(3).toString();
+    //   }
+  });
+
+</script>
+<style>
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+  }
+
+  #map {
+    height: 450px;
+    width: 100%;
+  }
+
+  /* .ol-popup {
+    position: absolute;
+    background-color: white;
+    -webkit-filter: drop-shadow(0 1px 4px rgba(0, 0, 0, 0.2));
+    filter: drop-shadow(0 1px 4px #ffc125);
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #cccccc;
+    bottom: 12px;
+    left: -50px;
+    min-width: 200px;
+  }
+
+  .ol-popup:after,
+  .ol-popup:before {
+    top: 100%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+  }
+
+  .ol-popup:after {
+    border-top-color: white;
+    border-width: 10px;
+    left: 48px;
+    margin-left: -10px;
+  }
+
+  .ol-popup:before {
+    border-top-color: #cccccc;
+    border-width: 11px;
+    left: 48px;
+    margin-left: -11px;
+  } 
+
+  .ol-popup-closer {
+    text-decoration: none;
+    position: absolute;
+    top: 2px;
+    right: 8px;
+    color: red;
+  } */
+
+  .ol-popup-car {
+    text-decoration: none;
+    position: absolute;
+    top: 1px;
+    right: 25px;
+    color: red;
+  }
+
+  .ol-popup-bus {
+    text-decoration: none;
+    position: absolute;
+    top: 1px;
+    right: 50px;
+    color: red;
+  }
+
+  .ol-popup-walk {
+    text-decoration: none;
+    position: absolute;
+    top: 1px;
+    right: 75px;
+    color: red;
+  }
+
+  /* .ol-popup-closer:after {
+    content: "✖";
+  }
+
+  .ol-popup-car:after {
+    content: "🚗";
+  }
+
+  .ol-popup-bus:after {
+    content: "🚌";
+  }
+
+  .ol-popup-walk:after {
+    content: "🚶";
+  } */
+
+  body {
+    background-image: url("./img/bg.jpg");
+    background-size: 100% 100%;
+  }
+</style>
+
+</html>

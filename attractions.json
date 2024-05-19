@@ -1,0 +1,2623 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "锦里古街",
+        "address": "武侯祠大街231号附1号",
+        "type": "风景名胜;风景名胜;风景名胜"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.049828, 30.645994]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "宽窄巷子景区",
+        "address": "宽巷子27号",
+        "type": "购物服务;特色商业街;特色商业街|风景名胜;风景名胜相关;旅游景点"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.053307, 30.663869]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "桂溪生态公园",
+        "address": "天府一街附近",
+        "type": "风景名胜;公园广场;公园"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.067319, 30.563054]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "人民公园",
+        "address": "小南街8号(人民公园地铁站B口步行240米)",
+        "type": "风景名胜;风景名胜;国家级景点"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.057641, 30.65699]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "天府广场",
+        "address": "人民南路一段86号(天府广场地铁站出入口步行50米)",
+        "type": "风景名胜;公园广场;城市广场"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.065861, 30.657401]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "文殊院",
+        "address": "文殊院街66号(文殊院地铁站K口步行400米)",
+        "type": "风景名胜;风景名胜;寺庙道观"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.072527, 30.675418]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "东郊记忆",
+        "address": "跳蹬河街道建设南支路1号",
+        "type": "风景名胜;风景名胜;国家级景点"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.122906, 30.668697]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "成都大熊猫繁育研究基地",
+        "address": "熊猫大道1375号",
+        "type": "风景名胜;风景名胜;国家级景点"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.138176, 30.740573]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "锦城湖",
+        "address": "锦城大道1333号",
+        "type": "风景名胜;公园广场;公园"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.03991, 30.573865]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "锦城公园",
+        "address": "益州大道中段1666号",
+        "type": "风景名胜;公园广场;公园"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.052308, 30.570449]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "三圣花乡旅游区",
+        "address": "红沙村联合一组136号",
+        "type": "风景名胜;风景名胜;国家级景点"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.133729, 30.572009]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "望江楼公园",
+        "address": "望江路30号",
+        "type": "风景名胜;公园广场;公园"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.092205, 30.629245]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "东湖公园",
+        "address": "二环路东五段301号",
+        "type": "风景名胜;公园广场;公园"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.087899, 30.616051]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "成都动物园",
+        "address": "昭觉寺南路234号(动物园地铁站A口步行260米)",
+        "type": "风景名胜;公园广场;动物园"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.106009, 30.710131]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "交子公园",
+        "address": "天府大道北段",
+        "type": "风景名胜;公园广场;公园"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.070188, 30.582725]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "大源中央公园",
+        "address": "天府二街777号(大源地铁站D口旁)",
+        "type": "风景名胜;公园广场;公园"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.049182, 30.549059]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "经天320足球公园",
+        "address": "经天西路320号",
+        "type": "风景名胜;公园广场;公园"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.102074, 30.596277]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "中和湿地公园",
+        "address": "朝阳横街北50米",
+        "type": "风景名胜;公园广场;公园"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.095422, 30.565879]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "青龙湖湿地公园",
+        "address": "十陵风景区内",
+        "type": "风景名胜;公园广场;公园"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.195729, 30.633254]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "青羊宫",
+        "address": "一环路西二段9号(青羊宫地铁站C口向后步行90米)",
+        "type": "风景名胜;风景名胜;寺庙道观"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.042599, 30.661506]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "塔子山公园",
+        "address": "迎晖路222号(塔子山公园地铁站D口步行280米)",
+        "type": "风景名胜;公园广场;公园"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.124023, 30.6344]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "成都极地海洋公园",
+        "address": "天府新区海洋路68号",
+        "type": "风景名胜;公园广场;水族馆"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.07376, 30.494161]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "浣花溪公园",
+        "address": "青华路9号(近杜甫草堂)",
+        "type": "风景名胜;公园广场;公园"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.029022, 30.657467]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "漫花庄园",
+        "address": "蜀龙大道1528号",
+        "type": "风景名胜;风景名胜相关;旅游景点"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.140799, 30.761951]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "洛带古镇",
+        "address": "三峨街",
+        "type": "风景名胜;风景名胜;国家级景点"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.328376, 30.636191]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "大慈寺",
+        "address": "大慈寺路21-23号(春熙路地铁站出入口步行350米)",
+        "type": "风景名胜;风景名胜;寺庙道观"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.083791, 30.654243]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "银杏文化街区",
+        "address": "美领事馆美食区锦苑巷2号",
+        "type": "风景名胜;风景名胜相关;旅游景点"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.073444, 30.626583]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "铁像寺",
+        "address": "铁像寺路66号",
+        "type": "风景名胜;风景名胜;寺庙道观"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.049006, 30.557092]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "昭觉寺",
+        "address": "昭青路333号",
+        "type": "风景名胜;风景名胜;寺庙道观"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.105956, 30.708103]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "交子百业园",
+        "address": "益新大道与锦城大道交叉口南240米",
+        "type": "风景名胜;风景名胜相关;旅游景点"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.0258, 30.579082]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "棠湖公园",
+        "address": "棠湖西路一段2号",
+        "type": "风景名胜;公园广场;公园"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.918481, 30.570315]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "南湖公园",
+        "address": "华阳街道南湖北路与南湖东路交叉路口东北角",
+        "type": "风景名胜;公园广场;公园"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.048558, 30.499675]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "天府艺术公园",
+        "address": "金泉街道金牛大道金牛坝路388号",
+        "type": "风景名胜;公园广场;公园"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.022692, 30.711411]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "生机之塔",
+        "address": "G4202成都绕城高速与濯锦立交桥交叉口北120米",
+        "type": "风景名胜;风景名胜;风景名胜"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.070337, 30.566902]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "成都市植物园",
+        "address": "蓉都大道天回路1116号",
+        "type": "风景名胜;公园广场;植物园"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.128542, 30.763468]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "浓园国际艺术村",
+        "address": "簇桥武侯大道新苗村5组",
+        "type": "风景名胜;风景名胜;风景名胜|体育休闲服务;休闲场所;休闲场所|商务住宅;产业园区;产业园区"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.008141, 30.589119]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "文化公园",
+        "address": "琴台路73号(青羊宫地铁站C口步行70米)",
+        "type": "风景名胜;公园广场;公园"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.043133, 30.660506]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "新华公园",
+        "address": "双林路87号(新华公园)",
+        "type": "风景名胜;公园广场;公园"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.105629, 30.656332]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "北湖生态公园",
+        "address": "龙潭寺和成社区",
+        "type": "风景名胜;公园广场;公园"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.154455, 30.718909]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "天府绿道",
+        "address": "世纪城东路与世纪城路交叉口北100米",
+        "type": "风景名胜;风景名胜;风景名胜"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.076812, 30.56275]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "东安湖公园",
+        "address": "都市汽车城大道四段辅路",
+        "type": "风景名胜;公园广场;公园"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.244966, 30.589811]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "成都江滩公园",
+        "address": "世纪城路",
+        "type": "风景名胜;公园广场;公园"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.080905, 30.555514]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "桂溪生态公园-成都锦城绿道",
+        "address": "桂溪生态公园东区",
+        "type": "风景名胜;公园广场;公园"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.078089, 30.563592]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "簇锦公园",
+        "address": "福锦路二段268号",
+        "type": "风景名胜;公园广场;公园"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.997279, 30.609288]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "黄甲广场",
+        "address": "黄甲镇黄甲大道48号",
+        "type": "风景名胜;公园广场;城市广场"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.949315, 30.491038]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "桃花故里景区",
+        "address": "山泉镇",
+        "type": "风景名胜;风景名胜;国家级景点"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.321501, 30.550823]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "石经寺",
+        "address": "茶店镇石经村10组56号",
+        "type": "风景名胜;风景名胜;寺庙道观"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.348063, 30.502284]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "麓湖水城景区",
+        "address": "天府新区天府大道南延线",
+        "type": "风景名胜;风景名胜;风景名胜"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.064974, 30.458829]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "幸福梅林",
+        "address": "锦江大道",
+        "type": "风景名胜;风景名胜;国家级景点"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.136296, 30.58435]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "百花潭公园",
+        "address": "芳邻路5号",
+        "type": "风景名胜;公园广场;公园"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.043653, 30.656117]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "国际非物质文化遗产博览园",
+        "address": "光华大道二段601号",
+        "type": "风景名胜;风景名胜;风景名胜"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.929802, 30.666557]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "水井坊锦江体育公园",
+        "address": "委党校斜对面",
+        "type": "风景名胜;公园广场;公园"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.112802, 30.597659]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "天府公园",
+        "address": "天府新区天府大道南二段与杭州路交叉口南",
+        "type": "风景名胜;公园广场;公园"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.072372, 30.432313]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "龙泉仰天窝",
+        "address": "318国道山泉镇联合村六组50号",
+        "type": "风景名胜;风景名胜;风景名胜"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.282551, 30.548198]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "国色天乡乐园",
+        "address": "万春镇天乡路98号",
+        "type": "风景名胜;风景名胜;国家级景点"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.825546, 30.722273]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "黄龙溪古镇",
+        "address": "黄龙溪镇黄金路70号",
+        "type": "风景名胜;风景名胜;国家级景点"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.970525, 30.317805]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "成飞公园",
+        "address": "纬一路220号",
+        "type": "风景名胜;公园广场;公园"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.956765, 30.69984]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "白云寺",
+        "address": "柳河路1号",
+        "type": "风景名胜;风景名胜;寺庙道观"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.893037, 30.484176]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "音乐·百花谷",
+        "address": "万科五龙山叠秀路1777号",
+        "type": "风景名胜;风景名胜相关;旅游景点"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.162699, 30.765821]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "和平社区广场",
+        "address": "天仁北一街与天和路交汇处西北50米",
+        "type": "风景名胜;公园广场;城市广场"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.073147, 30.603539]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "府南河音乐广场",
+        "address": "丝管路",
+        "type": "风景名胜;公园广场;公园广场"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.08319, 30.642258]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "清水河公园",
+        "address": "西三环路三段",
+        "type": "风景名胜;公园广场;公园"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.986952, 30.659083]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "合江亭",
+        "address": "滨江东路9号",
+        "type": "风景名胜;风景名胜;风景名胜"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.083659, 30.642929]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "皇城清真寺",
+        "address": "小河街2号附2号",
+        "type": "风景名胜;风景名胜;回教寺"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.062909, 30.65671]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "桃花沟",
+        "address": "桃花沟路东50米",
+        "type": "风景名胜;风景名胜相关;旅游景点"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.27544, 30.547537]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "凤凰山公园",
+        "address": "北星大道",
+        "type": "风景名胜;公园广场;公园"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.081896, 30.737724]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "保利198公园",
+        "address": "蜀龙大道南段1980号",
+        "type": "风景名胜;公园广场;公园"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.148313, 30.743434]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "红光广场",
+        "address": "红光大道与广场路交汇处",
+        "type": "风景名胜;公园广场;城市广场"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.943314, 30.773012]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "玉石湿地公园",
+        "address": "洪源一路1999号",
+        "type": "风景名胜;公园广场;公园|风景名胜;风景名胜;风景名胜"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.199855, 30.610632]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "南郊公园",
+        "address": "武侯祠大街231号武侯祠景区内",
+        "type": "风景名胜;公园广场;公园"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.046043, 30.6449]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "锦城湖2号湖区",
+        "address": "锦城大道与近慈路交叉口东南60米",
+        "type": "风景名胜;公园广场;公园"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.043582, 30.575073]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "双流区中心公园",
+        "address": "双流普贤村金河路",
+        "type": "风景名胜;公园广场;公园"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.905719, 30.588206]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "文殊坊",
+        "address": "文殊院大街66号(近省市政务中心)",
+        "type": "风景名胜;风景名胜;风景名胜"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.073409, 30.67338]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "丹景山狮子堡观景台",
+        "address": "丹景山村",
+        "type": "风景名胜;风景名胜;风景名胜"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.182077, 30.376871]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "府河摄影公园",
+        "address": "北三环路一段南",
+        "type": "风景名胜;公园广场;公园"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.044636, 30.720932]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "永安湖城市森林公园",
+        "address": "生物城中路二段3号",
+        "type": "风景名胜;公园广场;公园"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.977792, 30.421804]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "易园园林博物馆",
+        "address": "金泉路8号",
+        "type": "风景名胜;风景名胜;风景名胜"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.014958, 30.71778]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "木兰寺",
+        "address": "木兰社区200号",
+        "type": "风景名胜;风景名胜;寺庙道观"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.193163, 30.777697]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "邓小平广场",
+        "address": "簇锦北街(簇桥地铁站E口旁)",
+        "type": "风景名胜;公园广场;城市广场"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.990074, 30.606565]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "空港体育公园",
+        "address": "成双大道双流空港商务区起步区内",
+        "type": "风景名胜;公园广场;公园"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.953, 30.592669]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "瞿上田园",
+        "address": "天保大道与华板路交叉口东北140米",
+        "type": "风景名胜;风景名胜;风景名胜"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.920376, 30.492573]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "新川湿地公园",
+        "address": "新通北三路",
+        "type": "风景名胜;公园广场;公园"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.106199, 30.526646]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "石人公园",
+        "address": "石人北路2号(白果林地铁站D口步行460米)",
+        "type": "风景名胜;公园广场;公园"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.029802, 30.675594]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "宝光桂湖文化旅游区宝光寺",
+        "address": "宝光街81号",
+        "type": "风景名胜;风景名胜;寺庙道观"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.160855, 30.831969]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "洛带古镇-博客楼",
+        "address": "洛带古镇",
+        "type": "风景名胜;风景名胜;风景名胜"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.329447, 30.635042]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "近慈寺",
+        "address": "剑南大道北段899号",
+        "type": "风景名胜;风景名胜;寺庙道观"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.047054, 30.574105]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "怡心湖公园",
+        "address": "华阳镇街道附近",
+        "type": "风景名胜;公园广场;公园"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.027423, 30.477432]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "金龙长城",
+        "address": "樱花路",
+        "type": "风景名胜;风景名胜;风景名胜"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.371392, 30.678673]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "成都龙泉山丹景台旅游景区",
+        "address": "老马埂附近",
+        "type": "风景名胜;风景名胜;风景名胜"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.257919, 30.348616]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "白鹭湾湿地公园",
+        "address": "湿地路",
+        "type": "风景名胜;公园广场;公园"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.136926, 30.568151]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "安顺廊桥",
+        "address": "滨江东路66号",
+        "type": "风景名胜;风景名胜;风景名胜"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.085716, 30.641325]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "龙泉山风景区",
+        "address": "山泉镇枇杷沟美满村",
+        "type": "风景名胜;风景名胜;风景名胜"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.307351, 30.542797]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "龙潭水乡",
+        "address": "航天路88号(近华翰路)",
+        "type": "风景名胜;风景名胜;风景名胜"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.181765, 30.687699]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "江家艺苑",
+        "address": "幸福路151号",
+        "type": "风景名胜;风景名胜;风景名胜|风景名胜;公园广场;公园广场"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.124276, 30.575947]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "三圣花乡荷塘月色",
+        "address": "簧柏路",
+        "type": "风景名胜;风景名胜;国家级景点"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.133741, 30.572014]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "天府熊猫塔",
+        "address": "猛追湾街168号",
+        "type": "风景名胜;风景名胜;风景名胜"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.09458, 30.662303]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "应天寺",
+        "address": "胜利镇牧马山麓",
+        "type": "风景名胜;风景名胜;寺庙道观"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.910307, 30.532201]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "萌宠乐园",
+        "address": "绕城高速双流段与双楠大道交叉口",
+        "type": "风景名胜;公园广场;公园"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.943512, 30.619582]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "宝狮湖(不对外开放)",
+        "address": "长松乡宝狮村",
+        "type": "风景名胜;风景名胜;风景名胜"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.281482, 30.533328]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "永陵公园",
+        "address": "永陵路10号",
+        "type": "风景名胜;公园广场;公园"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.047296, 30.674447]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "两河城市森林公园",
+        "address": "土龙路38号",
+        "type": "风景名胜;公园广场;公园"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.968, 30.717903]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "活水公园",
+        "address": "华星路5号(红星桥地铁站A口步行170米)",
+        "type": "风景名胜;公园广场;公园"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.091456, 30.66848]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "银沙滩",
+        "address": "都市汽车城大道四段辅路东安湖公园(西南角)",
+        "type": "风景名胜;风景名胜;风景名胜"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.231937, 30.582083]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "汽车主题公园",
+        "address": "车城东七路辅路",
+        "type": "风景名胜;公园广场;公园"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.229453, 30.519757]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "锦江公园",
+        "address": "锦江大道与科华南路辅路交叉口东140米",
+        "type": "风景名胜;公园广场;公园"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.079753, 30.588508]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "升仙湖公园",
+        "address": "双水碾街道升仙湖北路与双沙桥路交叉口东150米",
+        "type": "风景名胜;公园广场;公园"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.0825, 30.708582]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "空港运动公园",
+        "address": "成双大道南段与龙桥路交叉口东380米",
+        "type": "风景名胜;公园广场;公园"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.955803, 30.594153]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "永宁街道芙蓉文化广场",
+        "address": "永宁镇翠竹街65号",
+        "type": "风景名胜;公园广场;城市广场"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.910083, 30.726755]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "温江文庙",
+        "address": "柳城街道文庙街6号",
+        "type": "风景名胜;风景名胜;寺庙道观"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.836856, 30.697802]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "儿童乐园",
+        "address": "天府三街与盛华南路交叉口",
+        "type": "风景名胜;公园广场;公园"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.053002, 30.545577]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "骑龙中水湿地公园",
+        "address": "桂溪街办临江村",
+        "type": "风景名胜;公园广场;公园"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.021056, 30.538932]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "成华公园",
+        "address": "猛追湾街22号",
+        "type": "风景名胜;公园广场;公园"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.095223, 30.667419]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "龙泉山城市森林公园合江景区",
+        "address": "白三路",
+        "type": "风景名胜;风景名胜;风景名胜"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.181532, 30.378726]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "鲁家滩湿地公园",
+        "address": "春林路",
+        "type": "风景名胜;公园广场;公园"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.774798, 30.689937]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "成都动物园熊猫馆",
+        "address": "昭觉寺南路234号成都动物园内(西北角)",
+        "type": "风景名胜;公园广场;动物园"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.105349, 30.710791]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "紫竹商贸(大世界商业广场店)",
+        "address": "新光路10号家乐福F1大世界商业广场F1层1-附2号",
+        "type": "购物服务;专卖店;烟酒专卖店|风景名胜;风景名胜相关;旅游景点"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.056136, 30.616173]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "华阳音乐广场",
+        "address": "安公路三段",
+        "type": "风景名胜;公园广场;城市广场"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.056418, 30.520838]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "金牛公园",
+        "address": "金府路66号",
+        "type": "风景名胜;公园广场;公园"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.024656, 30.703512]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "三道堰古镇",
+        "address": "永宁路南一段",
+        "type": "风景名胜;风景名胜;风景名胜"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.90891, 30.863597]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "月牙湖",
+        "address": "吉庆一路与吉瑞一路交汇处东南角",
+        "type": "风景名胜;公园广场;公园"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.059049, 30.557341]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "芙蓉岛公园",
+        "address": "熊家桥路55号",
+        "type": "风景名胜;公园广场;公园"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.084723, 30.55571]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "东郊记忆成都墙",
+        "address": "建设南支路4号-46号楼",
+        "type": "风景名胜;风景名胜;风景名胜"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.123252, 30.669688]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "望丛祠",
+        "address": "望丛中路3-4号(望丛祠地铁站A口步行330米)",
+        "type": "风景名胜;风景名胜;国家级景点"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.874221, 30.809376]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "成都大熊猫繁育研究基地大熊猫月亮产房",
+        "address": "外北熊猫大道1375号成都大熊猫繁育研究基地",
+        "type": "风景名胜;风景名胜;国家级景点"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.139472, 30.739506]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "老君山",
+        "address": "永商镇老君山景区",
+        "type": "风景名胜;风景名胜;风景名胜"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.807509, 30.391044]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "松鼠部落",
+        "address": "合江街道南天寺8组1号",
+        "type": "风景名胜;风景名胜相关;旅游景点"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.154425, 30.405911]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "神仙树公园",
+        "address": "紫荆西路(神仙树地铁站F口步行250米)",
+        "type": "风景名胜;公园广场;公园"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.04781, 30.612908]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "蜀绣公园",
+        "address": "安靖镇金河路350号",
+        "type": "风景名胜;公园广场;公园"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.010036, 30.768811]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "WAVE BOX海浪公园",
+        "address": "天津路西段",
+        "type": "风景名胜;公园广场;公园"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.056207, 30.461747]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "高铁城市公园",
+        "address": "杨柳路培育幼儿园西南200米",
+        "type": "风景名胜;公园广场;公园"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.146822, 30.637318]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "百工堰公园",
+        "address": "公园路二段186号",
+        "type": "风景名胜;公园广场;公园"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.298001, 30.568669]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "金泉运动公园",
+        "address": "土龙路377号(土龙路与美墅街交叉口)",
+        "type": "风景名胜;公园广场;公园"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.976429, 30.715562]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "上新桥公园",
+        "address": "金丰高架桥沙河源街道新桥社区东北侧约140米",
+        "type": "风景名胜;公园广场;公园"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.047966, 30.718875]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "花舞人间景区",
+        "address": "新蒲路梨花溪1号",
+        "type": "风景名胜;风景名胜;风景名胜"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.807472, 30.385305]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "平安桥天主堂",
+        "address": "西华门街25号",
+        "type": "风景名胜;风景名胜;教堂|政府机构及社会团体;社会团体;教会"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.061921, 30.663921]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "三圣花乡·花乡农居",
+        "address": "三圣街道红砂社区136号",
+        "type": "风景名胜;风景名胜;国家级景点"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.160874, 30.583761]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "铁佛寺",
+        "address": "福锦路一段155号",
+        "type": "风景名胜;风景名胜;寺庙道观"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.991063, 30.612449]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "武侯生活广场",
+        "address": "二环路西一段2号",
+        "type": "风景名胜;公园广场;城市广场"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.032067, 30.636814]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "星星产房",
+        "address": "熊猫大道1375号成都大熊猫繁育研究基地内(北侧)",
+        "type": "风景名胜;风景名胜;风景名胜"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.138418, 30.745987]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "锦城绿道",
+        "address": "红沙村联合一组136号三圣花乡旅游区内(西侧)",
+        "type": "风景名胜;风景名胜;风景名胜"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.11849, 30.572736]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "锦城湖4号湖区",
+        "address": "锦城湖立交附近",
+        "type": "风景名胜;公园广场;公园"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.052222, 30.564869]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "龙泉山城市森林公园",
+        "address": "茶店街道",
+        "type": "风景名胜;公园广场;公园"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.378957, 30.591542]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "摩诃池公园",
+        "address": "西御河沿街35号(骡马市地铁站D口步行330米)",
+        "type": "风景名胜;公园广场;公园"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.06403, 30.664527]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "安仁古镇",
+        "address": "安仁镇",
+        "type": "风景名胜;风景名胜;国家级景点"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.62403, 30.505134]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "潮音水岸公园",
+        "address": "潮音路3号(机投桥地铁站C口步行270米)",
+        "type": "风景名胜;公园广场;公园|风景名胜;公园广场;城市广场"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.983217, 30.645724]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "成都蜀乐池温泉",
+        "address": "凤凰北大街619号",
+        "type": "风景名胜;风景名胜相关;旅游景点"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.890529, 30.686503]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "新金牛公园",
+        "address": "金牛大道茶店子路辅路与子云路交叉口东南80米",
+        "type": "风景名胜;公园广场;公园"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.029065, 30.698124]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "丽都公园",
+        "address": "丽都路1号(科园地铁站A1口步行410米)",
+        "type": "风景名胜;公园广场;公园"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.036066, 30.628864]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "桂龙公园",
+        "address": "世纪城南路67号附近",
+        "type": "风景名胜;公园广场;公园"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.074301, 30.54433]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "宝光桂湖文化旅游区桂湖森林广场",
+        "address": "桂湖西路3号",
+        "type": "风景名胜;公园广场;城市广场"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.155818, 30.822369]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "琴台故径",
+        "address": "琴台路205号(通惠门地铁站E口步行100米)",
+        "type": "风景名胜;风景名胜;风景名胜|购物服务;特色商业街;特色商业街"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.047035, 30.662426]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "极地海洋世界公园-海底世界",
+        "address": "天府新区海洋路68号成都极地海洋公园(东北角)",
+        "type": "风景名胜;公园广场;水族馆"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.074878, 30.495441]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "铁佛公园",
+        "address": "千龙路与福锦路交叉口东北220米",
+        "type": "风景名胜;公园广场;公园"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.990998, 30.616038]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "明蜀王陵",
+        "address": "成洛大道",
+        "type": "风景名胜;风景名胜;国家级景点"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.191595, 30.646962]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "杜甫草堂-茅屋故居",
+        "address": "草堂路28号成都杜甫草堂博物馆内",
+        "type": "风景名胜;风景名胜相关;旅游景点"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.027718, 30.660655]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "幸福田园景区",
+        "address": "万春镇幸福村",
+        "type": "风景名胜;风景名胜;国家级景点"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.79648, 30.764051]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "温江·置信城市公园",
+        "address": "文化路334号附1号",
+        "type": "风景名胜;公园广场;公园"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.845886, 30.697086]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "西蜀廊桥古镇",
+        "address": "桂溪街道成都市高新区世纪城路166号附280号",
+        "type": "风景名胜;风景名胜;风景名胜|餐饮服务;中餐厅;中餐厅"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.072992, 30.558344]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "花香果居旅游景区",
+        "address": "新崇路附近",
+        "type": "风景名胜;风景名胜相关;旅游景点"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.027938, 30.864035]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "花荫沟(天府四街-天府五街)",
+        "address": "益州大道中段1800号G3",
+        "type": "风景名胜;风景名胜;风景名胜"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.05397, 30.53819]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "紫瑞公园",
+        "address": "紫瑞北街5号对面(神仙树地铁站A口步行380米)",
+        "type": "风景名胜;公园广场;公园"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.043851, 30.611979]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "三圣玫瑰谷",
+        "address": "滨湖路399号",
+        "type": "风景名胜;风景名胜;风景名胜"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.137449, 30.581284]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "沙河东篱翠湖公园",
+        "address": "柳翠路213号",
+        "type": "风景名胜;公园广场;公园"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.091331, 30.608022]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "宋育仁墓",
+        "address": "幸福路与驸江路交叉口西北320米",
+        "type": "风景名胜;风景名胜;风景名胜"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.135715, 30.576946]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "蓝牌体育公园",
+        "address": "长顺大道二段",
+        "type": "风景名胜;公园广场;公园"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.017733, 30.505053]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "荷塘月色风景区",
+        "address": "红沙村联合一组136号三圣花乡旅游区内(东侧)",
+        "type": "生活服务;摄影冲印店;摄影冲印|风景名胜;风景名胜相关;旅游景点"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.156738, 30.568077]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "太古里东广场",
+        "address": "纱帽街8号(春熙路地铁站出入口步行410米)",
+        "type": "风景名胜;公园广场;城市广场"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.083786, 30.653124]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "清真上寺",
+        "address": "北街26(金科北路地铁站D口步行240米)",
+        "type": "风景名胜;风景名胜;回教寺"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.008276, 30.722482]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "正兴镇景观大草坪",
+        "address": "江畔路上河边街段与江畔路下河边街段交叉口东北260米",
+        "type": "风景名胜;风景名胜相关;旅游景点"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.042352, 30.442268]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "马骕墓",
+        "address": "太平园路",
+        "type": "风景名胜;风景名胜;风景名胜"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.015922, 30.621584]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "凤翔湖市政森林公园",
+        "address": "银河路五段与航鹰路一段交汇处",
+        "type": "风景名胜;公园广场;公园"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.908202, 30.583751]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "龙潭新区公园",
+        "address": "成宏路72号",
+        "type": "风景名胜;公园广场;公园"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.197379, 30.692412]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "蚕宝自然王国",
+        "address": "承顺街17号",
+        "type": "风景名胜;风景名胜;风景名胜"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.126881, 30.780022]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "光华公园",
+        "address": "人和西街88号(光华公园地铁站J口旁)",
+        "type": "风景名胜;公园广场;公园"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.858209, 30.684244]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "成都大熊猫繁育研究基地大熊猫太阳产房",
+        "address": "外北熊猫大道1375号成都大熊猫繁育研究基地(东南角)",
+        "type": "风景名胜;风景名胜;国家级景点"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.143395, 30.737633]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "双流区运动公园",
+        "address": "航都大街",
+        "type": "风景名胜;公园广场;公园"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.906853, 30.592227]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "龙泉山天池",
+        "address": "东街199号大佛村大佛6组",
+        "type": "风景名胜;风景名胜;风景名胜"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.314718, 30.525954]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "江安河公园",
+        "address": "川大南路二段g5号",
+        "type": "风景名胜;公园广场;公园"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.005706, 30.537057]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "石牛堰水文化公园",
+        "address": "石牛堰路与二环路交会处",
+        "type": "风景名胜;公园广场;公园"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.089874, 30.62113]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "五凤溪古镇",
+        "address": "五凤溪景区",
+        "type": "风景名胜;风景名胜;国家级景点"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.483152, 30.605714]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "空港中央公园",
+        "address": "航鹰东路与五洞桥北路二段交叉口东北180米",
+        "type": "风景名胜;公园广场;公园"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.912622, 30.585804]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "书香广场",
+        "address": "湖岸南路与跨湖路交叉口东北460米",
+        "type": "风景名胜;公园广场;城市广场"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.250295, 30.586665]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "梨花溪风景区",
+        "address": "永商镇梨花村",
+        "type": "风景名胜;风景名胜;风景名胜"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.812331, 30.3658]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "金沙遗址博物馆乌木林",
+        "address": "金沙遗址路2号金沙遗址博物馆",
+        "type": "风景名胜;风景名胜;风景名胜"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.012978, 30.679582]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "为民广场",
+        "address": "为民路28号",
+        "type": "风景名胜;公园广场;城市广场"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.045836, 30.688529]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "白河公园",
+        "address": "宜城大道三段与金河路五段交叉口西150米",
+        "type": "风景名胜;公园广场;公园"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.900447, 30.558498]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "三星观景台",
+        "address": "新大中路",
+        "type": "风景名胜;风景名胜;风景名胜"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.172615, 30.305345]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "客家杏花村",
+        "address": "福洪镇杏花村",
+        "type": "风景名胜;风景名胜;省级景点|地名地址信息;普通地名;村庄级地名"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.365656, 30.709439]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "火车头广场",
+        "address": "建设南支路4号东郊记忆(原东区音乐公园)内东街32号楼MR-X店附近",
+        "type": "风景名胜;公园广场;城市广场"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.124609, 30.668202]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "分贝音乐公园",
+        "address": "王贾6组20号",
+        "type": "风景名胜;公园广场;公园"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.072135, 30.725373]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "万佛寺",
+        "address": "怡心街道万佛寺路1号(三江公交首末站背后)",
+        "type": "风景名胜;风景名胜;寺庙道观"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.017295, 30.520733]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "龙潭寺",
+        "address": "火神庙路108号",
+        "type": "风景名胜;风景名胜;寺庙道观"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.172684, 30.7054]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "清水河生态艺术公园",
+        "address": "德源镇花石桥旁",
+        "type": "风景名胜;公园广场;公园"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.856931, 30.79186]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "黄忠公园",
+        "address": "同德街6号附近",
+        "type": "风景名胜;公园广场;公园"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.005319, 30.686997]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "沉浸夜游·视觉盛典",
+        "address": "牧华路一段700号",
+        "type": "风景名胜;风景名胜;风景名胜"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.933116, 30.513856]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "金华寺",
+        "address": "天回镇金华村5组801号",
+        "type": "风景名胜;风景名胜;寺庙道观"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.117784, 30.777266]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "熊猫塔",
+        "address": "熊猫大道1375号成都大熊猫繁育研究基地内(西侧)",
+        "type": "风景名胜;风景名胜;风景名胜"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.133737, 30.740536]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "斑竹林",
+        "address": "万兴路288号",
+        "type": "风景名胜;风景名胜相关;旅游景点"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.813012, 30.493134]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "雷剑广场",
+        "address": "蓉都大道将军碑路287号",
+        "type": "风景名胜;公园广场;城市广场"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.101765, 30.726613]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "香草湖湿地公园",
+        "address": "三道堰青杠树村8组95号",
+        "type": "风景名胜;公园广场;公园"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.959552, 30.841712]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "犀浦体育公园",
+        "address": "龙梓街(梓潼宫地铁站D口步行390米)",
+        "type": "风景名胜;公园广场;公园"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.990655, 30.745211]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "海滨公园",
+        "address": "荆竹东路264号",
+        "type": "风景名胜;公园广场;公园"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.117917, 30.708491]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "高车三路绿地公园",
+        "address": "高车三路135号",
+        "type": "风景名胜;公园广场;公园"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.10186, 30.692426]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "桃花故里景区-龙泉山风景区",
+        "address": "桃花故里旅游路东100米",
+        "type": "风景名胜;风景名胜;风景名胜"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.320444, 30.544209]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "新怡公园",
+        "address": "应龙路",
+        "type": "风景名胜;公园广场;公园"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.092681, 30.53241]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "白衣寺",
+        "address": "双关道附近",
+        "type": "风景名胜;风景名胜;寺庙道观"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.883111, 30.659776]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "成都市李劼人故居纪念馆",
+        "address": "外东沙河堡菱窠西路70号(川师大北门附近)",
+        "type": "风景名胜;风景名胜;纪念馆"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.124631, 30.618716]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "基督教上翔堂",
+        "address": "上翔街20号",
+        "type": "风景名胜;风景名胜;教堂"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.070413, 30.661135]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "摩诃池",
+        "address": "人民中路一段22号(骡马市地铁站D口步行300米)",
+        "type": "风景名胜;公园广场;公园"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.064765, 30.664223]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "芳华微马公园",
+        "address": "香城大道华桂路段",
+        "type": "风景名胜;公园广场;公园"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.12467, 30.822229]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "铁像寺水街二期-求贤牌坊",
+        "address": "盛安街与盛华北路交叉口西20米",
+        "type": "风景名胜;风景名胜;风景名胜"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.051348, 30.55794]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "通济园",
+        "address": "通济桥下街18-20号",
+        "type": "风景名胜;风景名胜;风景名胜"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.046871, 30.506506]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "宽窄巷子景区",
+        "address": "长顺上街73号(人民公园地铁站D口步行430米)",
+        "type": "风景名胜;风景名胜;风景名胜"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.05601, 30.663114]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "钟楼广场",
+        "address": "英伦联邦A区",
+        "type": "风景名胜;风景名胜;风景名胜"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.080688, 30.523638]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "凤凰湖旅游景区",
+        "address": "金凤路1号",
+        "type": "风景名胜;风景名胜;国家级景点"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.28206, 30.897978]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "中山广场",
+        "address": "春熙路北段(春熙路地铁站D口步行360米)",
+        "type": "风景名胜;公园广场;城市广场"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.076988, 30.655146]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "新川之心中央公园西区",
+        "address": "新裕路与梓州大道交叉口东北150米",
+        "type": "风景名胜;风景名胜;风景名胜"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.083015, 30.514713]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "驿马河公园",
+        "address": "龙泉街道保安寺路108-110号",
+        "type": "风景名胜;公园广场;公园"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.268279, 30.572746]
+      }
+    }
+  ]
+}
